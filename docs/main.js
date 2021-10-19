@@ -40,7 +40,7 @@
 			}
 		} else { 
 			var baseImg = new Image();
-			baseImg.src = 'https://gelehrtecrest.github.io/lalasai2020-generator/' + $('input[name=logo]:checked').val() + '.png';
+			baseImg.src = 'https://gelehrtecrest.github.io/lalasai2021-generator/' + $('input[name=logo]:checked').val() + '.png';
 			img = new createjs.Bitmap(baseImg);
 		}
 
